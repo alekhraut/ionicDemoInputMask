@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ionic App</title>
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#4e8ef7">
+
+  <!-- add to homescreen for ios -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <!-- cordova.js required for cordova apps (remove if not needed) -->
+  <script src="cordova.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+    crossorigin="anonymous">
+  
+  <link href="https://surveyjs.azureedge.net/1.0.16/survey.css" type="text/css" rel="stylesheet" />
+  <script src="https://surveyjs.azureedge.net/1.0.16/survey.angular.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/smoothness/jquery-ui.css" type="text/css" rel="stylesheet"/>
+    <script src="https://unpkg.com/inputmask@3.3.11/dist/inputmask/dependencyLibs/inputmask.dependencyLib.js"></script>
+        <script src="https://unpkg.com/inputmask@3.3.11/dist/inputmask/inputmask.js"></script>
+        <script src="https://unpkg.com/inputmask@3.3.11/dist/inputmask/inputmask.extensions.js"></script>
+        <script src="https://unpkg.com/inputmask@3.3.11/dist/inputmask/inputmask.numeric.extensions.js"></script>
+        <script src="https://unpkg.com/inputmask@3.3.11/dist/inputmask/inputmask.date.extensions.js"></script>
+        <script src="https://unpkg.com/inputmask@3.3.11/dist/inputmask/inputmask.phone.extensions.js"></script>
+        <script src="https://unpkg.com/inputmask@3.3.11/dist/inputmask/phone-codes/phone.js"></script>
+        <script src="https://unpkg.com/inputmask@3.3.11/dist/inputmask/phone-codes/phone-be.js"></script>
+        <script src="https://unpkg.com/inputmask@3.3.11/dist/inputmask/phone-codes/phone-ru.js"></script>
+
+  <!-- un-comment this code to enable service worker
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log('service worker installed'))
+        .catch(err => console.error('Error', err));
+    }
+  </script>-->
+
+  <link href="build/main.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Ionic's root component and where the app will load -->
+  <ion-app></ion-app>
+
+  <!-- The polyfills js is generated during the build process -->
+  <script src="build/polyfills.js"></script>
+
+  <!-- The vendor js is generated during the build process
+       It contains all of the dependencies in node_modules -->
+  <script src="build/vendor.js"></script>
+
+  <!-- The main bundle js is generated during the build process -->
+  <script src="build/main.js"></script>
+
+</body>
+</html>
